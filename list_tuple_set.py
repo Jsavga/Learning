@@ -6,7 +6,7 @@ names = ["mike", "john", "mary", "jill"]  # create a list
 names2 = ["peter", "frank", "carl", "suzzie"]  # create a different list
 names3 = []  # create an empty list
 names4 = ("sally", "henry", "ward")  # create tuple (like a list that can't be changed)
-names5 = {"jimmy", "todd", "wally", "fred"}  # create a set (are un-ordered and unchangeable)
+names5 = {"jimmy", "todd", "wally", "fred"}  # create a set (set are un-ordered and unchangeable)
 
 # List
 print(names)  # prints the entire list
@@ -38,6 +38,7 @@ print(names3)
 # tuple
 print(names4)  # since this is a tuple the values in it can not be changed
 # names4.remove("ward") would result in error since tuple is unchangeable
+# tuples use () and must have at least one comma even if only one element (3,)
 
 # set
 print(names5)  # set may display different order each run

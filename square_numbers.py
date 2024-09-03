@@ -12,7 +12,7 @@ print(f"{squares} \n")
 squares = []
 value = 0
 
-# this accomplishes the same thing as the for loop and squares.append above in one line
-# This is a "List Comprehension"
+# this accomplishes the same thing as the for loop and squares.append above in a single line
+# This is called "List Comprehension"
 squares = [value ** 2 for value in range(1, 11)]
 print(squares)

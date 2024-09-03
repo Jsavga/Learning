@@ -1,4 +1,4 @@
-# tuples
+# tuples use () and must have at least one comma even if only one element (3,)
 
 dimensions = (200, 50)
 print(dimensions[0])

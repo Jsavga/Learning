@@ -3,10 +3,12 @@
 my_foods = ['pizza', 'donut', 'pecan pie']
 friends_foods = my_foods  # this copies one list to another keeping them linked together
 other_friends_food = my_foods[:]  # this copies one list to another, but they are then separate list
+
 print(my_foods)
-print(f"{friends_foods} - copied my list to another just using =")
+print(f"{friends_foods} - copied my list to this one just using =")
 print(f"{other_friends_food} - copied my list to this one using a slice [:]")
 print()
+
 my_foods.append('coffe cake')
 print("Added item to my list")
 print(my_foods)

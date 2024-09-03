@@ -1,20 +1,22 @@
+
 cars = ['bmw', 'audi', 'toyota', 'subaru']
-print (f"{cars} Defined list")
+print (f"{cars} Defined list.")
 cars.sort()
-print (f'{cars} order changed with "sort" inbuilt method (sort permanently changes the list order)')
+print (f'{cars} order changed with "sort" inbuilt method (sort permanently changes the list order).')
 cars.sort(reverse=True)
-print (f"{cars} sort reversed. Since sort method was used this is now the defined list")
+print (f"{cars} sort reversed. Since sort method was used this is now the defined list.\n")
+
+
 cars = ['bmw', 'toyota', 'audi', 'subaru']
-print (f"{cars} redefined list to new order for next part")
+print (f"{cars} redefined list to new order for next part.")
 cars.reverse()
-print (f'{cars} the "reverse method" to reverse list order without sorting. \n')
+print (f'{cars} the "reverse" method to reverse list order "without sorting". This change is permanent too.\n')
 
-print (f'{sorted(cars)} "sorted" inbuilt function temporarily changes the order for output')
-print (f"{sorted(cars, reverse=True)} using sorted function to temp reverse-sort list")
-print (f"{cars} since sorted function is temporary, the original list order is retained\n")
+print (f'{sorted(cars)} "sorted" inbuilt function temporarily changes the order for output.')
+print (f"{sorted(cars, reverse=True)} using sorted function to temp reverse-sort list.")
+print (f"{cars} since sorted function is temporary, the original list order is retained.\n")
 
 
-input("Press Enter to continue...")
 
 print ('''The above codings are where I first started understanding the difference between inbuilt methods
 and inbuilt functions.
