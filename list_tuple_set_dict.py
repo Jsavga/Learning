@@ -1,12 +1,14 @@
 # list   []
 # tuple  ()
 # set    {}
+# dictionary {:}
 
 names = ["mike", "john", "mary", "jill"]  # create a list
 names2 = ["peter", "frank", "carl", "suzzie"]  # create a different list
 names3 = []  # create an empty list
 names4 = ("sally", "henry", "ward")  # create tuple (like a list that can't be changed)
 names5 = {"jimmy", "todd", "wally", "fred"}  # create a set (set are un-ordered and unchangeable)
+names_dict = {"user1": "tony", "user2": "helen", "user3": "lenny"}  # dictionary contains key-value pairs
 
 # List
 print(names)  # prints the entire list
@@ -41,9 +43,15 @@ print(names4)  # since this is a tuple the values in it can not be changed
 # tuples use () and must have at least one comma even if only one element (3,)
 
 # set
-print(names5)  # set may display different order each run
+print(names5)  # set may display different order each run.
+num_set = {1, 5, 3, 5, 8, 7, 2, 5, 3}  # set also removes duplicates
+print(num_set)
 
+# dictionary
+print(names_dict["user1"])  # dictionary use the key to print the value
+print(names_dict["user3"])
 # List is a collection which is ordered and changeable.Allows duplicate members.
 # Tuple is a collection which is ordered and unchangeable.Allows duplicate members.
 # Set is a collection  which is unordered, *unchangeable*, and unindexed.No duplicate members.
 #     *(can add and remove items to a set though)*
+# Dictionary contains key-value pairs and uses the same {} as a set

@@ -17,3 +17,6 @@ print(message2[1:3])  # prints starting at 1st index position and stopping "befo
 
 print(dir(message))  # Shows available modifiers
 
+# print can be spread out over lines. Close the quotes on the first line and indent the second to continue printing
+print("the quick brown fox "
+      "jumps over the lazy dog")
