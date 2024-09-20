@@ -3,7 +3,7 @@ message2 = "James"
 
 print("Hello James")  # outputs the the text inside quotes
 print('I said "Hello" James')  # use single quotes when you want to include double quotes in text
-print(message)  # outputs the text inside the v_message variable
+print(message)  # outputs the text inside the message variable
 print(message, message2)  # outputs text of combined variables (has a space between them)
 print(message + message2)  # same as above but omits the space between them
 print(message + " there " + message2)  # adds a string in the middle
