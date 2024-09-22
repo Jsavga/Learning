@@ -27,7 +27,7 @@ my_url = "https://my.home.com"
 my_name = "Mr. James"
 print(my_url, "- before removing prefix")
 print(my_url.removeprefix("https://"), "- after removing prefix")  # use .removeprefix method
-print(my_url.removesuffix(".com"), "- after removing suffix")  #use .removesuffix method
+print(my_url.removesuffix(".com"), "- after removing suffix")  # use .removesuffix method
 print()
 
 print(my_url)
@@ -37,3 +37,10 @@ print()
 
 print(my_name)
 print(my_name.removeprefix("Mr.").lstrip())  # Removes prefix then strips left whitespace. Multiple method on one line
+
+whitespace_throughout = "   Tony    the Tiger is a    Kellogs brand"
+print("".join(whitespace_throughout.split()))  # Removes all whitespace
+print("".join(whitespace_throughout.split()).lower())  # Does the same as above while also making lowercase
+print(whitespace_throughout)  # above two lines did not change is string, only formatting while printing
+new_string = "".join(whitespace_throughout.split()).lower()  # make new formatted string lowercase and no whitespace
+print(new_string)
